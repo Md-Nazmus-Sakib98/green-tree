@@ -1,6 +1,6 @@
 #plant-container {
     max-width: 1160px;
-    margin:0 auto;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
@@ -10,37 +10,40 @@
 .plant-card {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 10px;
     text-align: center;
     height: 100%;
 }
-.plant-card img{
-    height:45%;
-    width:100%;
+
+.plant-card img {
+    height: 45%;
+    width: 100%;
     object-fit: cover;
 }
-.plant-card h2{
-   font-size: 1.5em;
-   font-weight:400;
-   text-align: center;
- 
 
+.plant-card h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
 }
-.plant-card h3{
-   font-size: 1.2em;
-   font-weight: 300;
-   text-align: left;
-   margin: 5px;
-   padding:0 10px;
-   background-color:rgba(220, 252, 231, 1);
-   border-radius: 20px;
+
+.plant-card h3 {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-align: left;
+    margin: 5px;
+    padding: 0 10px;
+    background-color: rgba(220, 252, 231, 1);
+    border-radius: 20px;
 }
-.plant-card p{
+
+.plant-card p {
     text-align: justify;
-    margin:15px;
+    margin: 15px;
 }
-.plant-card button{
+
+.plant-card button {
     background-color: #4CAF50;
     color: white;
     border: none;
@@ -48,17 +51,11 @@
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
-    width:100%
+    width: 100%; /* ✅ fixed */
 }
-.plant-card div{
+
+.plant-card div {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    padding: 0 10px;
-    font-weight:semi-bold;  
-}
-.category-sidebar ul{
-    list-style: none;
-    padding: 0;
-}
+    padding: 0 10px;}
